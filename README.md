@@ -1,3 +1,30 @@
+# PLP Bookstore MongoDB
+
+This project demonstrates MongoDB fundamentals using a sample bookstore database.  
+The database is **plp_bookstore** and the collection is **books**.
+
+
+##  Setup Instructions (Local MongoDB)
+
+## Initialize Node.js project
+   ```bash
+   npm init -y
+
+## Install MongoDB driver
+npm install mongodb
+
+## Insert books into MongoDB
+-- In VS Code terminal, run:
+node insert_books.js
+
+## Run queries using Mongosh
+db.books.find({ genre: "Fiction" })
+
+
+
+
+
+
 # MongoDB Fundamentals - Week 1
 
 ## Setup Instructions
